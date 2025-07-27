@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22835e8c02dbb0e4982accc7ff28601b, type: 3}
+  m_Name: ForestIsland 2
+  m_EditorClassIdentifier: 
+  questName: Forest Island Hunting 2
+  questDescription: Kill 5 Mantis
+  rewardGold: 500
+  rewardExperience: 50
+  questStatus: 1
+  objectives:
+  - {fileID: 11400000, guid: 6a86ab814a342dc4c98a678648f5d245, type: 2}
+  currentObjectiveIndex: 0
+  currentObjectiveIndexMonster: 0
+  currentObjective: {fileID: 11400000, guid: 6a86ab814a342dc4c98a678648f5d245, type: 2}
+  questTypeImg: {fileID: 21300000, guid: c5a15f2e9509a344cb6838a7bbf5c5b4, type: 3}
+  currentKillingMonster:
+  - {fileID: 8952320975298644481, guid: 0a0fd5537f6fcf440a6d0c2cc3b9645f, type: 3}
+  img: {fileID: 21300000, guid: c5c2d448f45284e4a828d6c1d95cab07, type: 3}

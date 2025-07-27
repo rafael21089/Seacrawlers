@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d13d1a9f6d35746890bb663e4b3731, type: 3}
+  m_Name: Kill 2 Dune Marksman
+  m_EditorClassIdentifier: 
+  objectiveName: Kill 2 Dune Marksman
+  objectiveDescription: Kill 2 Dune Marksman
+  status: 1
+  questType: 0
+  questPlace: 2
+  rewardGold: 0
+  rewardExperience: 0
+  completionCriteria:
+    requiredValue: 2
+    currentValue: 0

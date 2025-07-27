@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22835e8c02dbb0e4982accc7ff28601b, type: 3}
+  m_Name: TheTrials
+  m_EditorClassIdentifier: 
+  questName: The Trials
+  questDescription: Kill our enemies
+  rewardGold: 4000
+  rewardExperience: 1000
+  questStatus: 1
+  objectives:
+  - {fileID: 11400000, guid: 4fd65d971e6c65c41ac205b138931f9b, type: 2}
+  - {fileID: 11400000, guid: 0032f153b299c1d4b8a1926ce2c734af, type: 2}
+  - {fileID: 11400000, guid: 0642c7081deb4044b90c7aa39e59f7af, type: 2}
+  - {fileID: 11400000, guid: 0b3e7ad72ab49814383585eb49276616, type: 2}
+  - {fileID: 11400000, guid: 4a6418cce1ba32542b1c46be33fd8368, type: 2}
+  - {fileID: 11400000, guid: cb63040b30bc45d40946077f0942a9c9, type: 2}
+  - {fileID: 11400000, guid: 0d8c526f2c27e1744a93869e73777976, type: 2}
+  - {fileID: 11400000, guid: 6742e9383e2b4d448a2bd9a5c001669c, type: 2}
+  - {fileID: 11400000, guid: 435c81dc9a35d594ab6854a239fece23, type: 2}
+  - {fileID: 11400000, guid: 4fd65d971e6c65c41ac205b138931f9b, type: 2}
+  currentObjectiveIndex: 0
+  currentObjectiveIndexMonster: 0
+  currentObjective: {fileID: 11400000, guid: 0032f153b299c1d4b8a1926ce2c734af, type: 2}
+  questTypeImg: {fileID: 21300000, guid: ca56ae5e9bfbbd644befda61aadc8a22, type: 3}
+  currentKillingMonster: []
+  img: {fileID: 0}
