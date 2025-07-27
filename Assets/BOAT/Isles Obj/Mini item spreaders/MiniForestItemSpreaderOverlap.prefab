@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6956917448003539763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6956917448003539765}
+  - component: {fileID: -8690021200861770400}
+  m_Layer: 0
+  m_Name: MiniForestItemSpreaderOverlap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6956917448003539765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956917448003539763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3785057, y: -1.0652542, z: -5.75202}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8690021200861770400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956917448003539763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30053a9513258214e99fb442d11f6a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addOnIslands: []
+  numberOfAddonIslands: 1
+  objectsToSpawn:
+  - {fileID: 3598925670900065097, guid: 30d6087a4668f2743b699de110bbeb83, type: 3}
+  - {fileID: 7720656347417286330, guid: 822ac9bc5f47c1045b2ee88775ad1b95, type: 3}
+  - {fileID: 4153507845590649007, guid: d321970b9abf62d45a60af52169659e4, type: 3}
+  - {fileID: 4948111382772025920, guid: 0f251d1cee4700f4d8a9e50e8ecf0c70, type: 3}
+  - {fileID: 3737159043823357835, guid: ea4d43c4278cae544b71ba4b4572725b, type: 3}
+  - {fileID: 4749839290846417133, guid: 358d43dd5358e934f9ae3a37d4526e66, type: 3}
+  - {fileID: 2513233754004345406, guid: 72f38c361beefea4ba6d4efbc3f69497, type: 3}
+  numberOfObjects: 04000000020000000a0000000a0000000a0000000a0000000a000000
+  island: {fileID: 0}
+  islandChild: {fileID: 0}
+  radius: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  navMeshTag: miniIslands
+  minSpawnDistance: 10
+  spawnerParaMiniIlhas: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb1266a806dd1f45b556da8895f0e4d, type: 3}
+  m_Name: IncRareTornado
+  m_EditorClassIdentifier: 
+  abilityName: Tornado
+  abilityDescription: Throw a tornado
+  abilityType: Rare
+  abilityClass: 
+  abilityLevelRequired: 5
+  abilityPrice: 500
+  abilityCooldown: 15
+  isAbilityActive: 0
+  abilityImg: {fileID: 21300000, guid: 38a6cd20291f8f847aee7182806aa7a5, type: 3}
+  abilityBgImg: {fileID: 21300000, guid: 187b596c9677cb5439780c8f70565c2d, type: 3}
+  abilityDuration: 0
+  abilityValue: 0

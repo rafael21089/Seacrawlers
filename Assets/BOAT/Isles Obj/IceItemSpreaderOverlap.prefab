@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6956917448003539763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6956917448003539765}
+  - component: {fileID: -8690021200861770400}
+  m_Layer: 0
+  m_Name: IceItemSpreaderOverlap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6956917448003539765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956917448003539763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3785057, y: -1.0652542, z: -5.75202}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8690021200861770400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956917448003539763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30053a9513258214e99fb442d11f6a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addOnIslands:
+  - {fileID: 3158881998222811040, guid: 4b394f162aa590841b1f5ec8767d5a05, type: 3}
+  - {fileID: 8313404209050531377, guid: 7c15b0efb1fdddb488944af321cd0055, type: 3}
+  - {fileID: 1220127201567523369, guid: 7c4d6220cffc1474da1b4ace14766d24, type: 3}
+  - {fileID: 2081556708901343741, guid: b4b47bb844db4ed4c81e75f4a4ced8e9, type: 3}
+  numberOfAddonIslands: 1
+  objectsToSpawn:
+  - {fileID: 4518178920356807751, guid: d3323df6980337b428d6c895babb4b08, type: 3}
+  - {fileID: 6787255083074297356, guid: 40694cae214fa7243b634af5a2845d06, type: 3}
+  - {fileID: 2938445586803486183, guid: 638ed8c73606c0140a980cb0c5edf00f, type: 3}
+  - {fileID: 3822617663529451349, guid: a2b54241e8b3e1943bff3bc348ba8ecf, type: 3}
+  - {fileID: 1411904654904640469, guid: b43dfeaec5fb86a41b36ffd31cb42355, type: 3}
+  - {fileID: 9150254379810628301, guid: 5c1a18f2326938e40b10fd4aa1ea89b2, type: 3}
+  - {fileID: 2920240250493056509, guid: 852a9cc4b4b3779429ee7b56d75a91d0, type: 3}
+  - {fileID: 8466218603833031891, guid: fccd8b6824ada6f439771531c9752f2d, type: 3}
+  - {fileID: 2001257756166344957, guid: f816beda17798fc419fc5f736b951985, type: 3}
+  - {fileID: 3256331065166505820, guid: f49fe238272040e40b7badedb03b286e, type: 3}
+  - {fileID: 9218861826601706707, guid: f585d5e2b689de043965a8c443483443, type: 3}
+  numberOfObjects: 0100000001000000010000000500000005000000010000001900000019000000190000001900000019000000
+  island: {fileID: 0}
+  islandChild: {fileID: 0}
+  radius: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  navMeshTag: island
+  minSpawnDistance: 10
+  spawnerParaMiniIlhas: {fileID: 3989564219803496989, guid: cd8e5337738291243952b838d88a5602, type: 3}
