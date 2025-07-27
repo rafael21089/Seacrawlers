@@ -1,0 +1,5 @@
+-Shader'ın çalışabilmesi için RenderPipline yüklü olması gerekir.
+-Vertical Fog etkisinin oluşacağı alan büyüklüğünde bir kü oluşturun.(Plane de oluşturulabilir fakat aynı derinlik efektini vermeyebilir.)
+-VerticalFog ile bir material oluşturup bu material öğesini cube objesine sürükleyin.
+-Material altında bulunan Intersection Threshold Max değerini değiştirerek dilediğiniz derinlik değerini yakalayabilirsiniz.
+-Camera componenti üzerinde Post-Processing aktif edilmeli ve Anti-Aliasing SMAA ayarlanmalıdır.

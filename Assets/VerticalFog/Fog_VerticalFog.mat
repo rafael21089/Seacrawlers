@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fog_VerticalFog
+  m_Shader: {fileID: 4800000, guid: 8b0307394a0b1344686f132479a3411a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0e7b665c68fbad241a929b2364318494, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: f14e5d91571b64b4588bc62a8c4b9323, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TrailTexture:
+        m_Texture: {fileID: 2800000, guid: 3f70ae4ed2f672f44a69ee833203857b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DeformationStrength: 0.5
+    - _Distance: 0
+    - _IntersectionThresholdMax: 0.03
+    - _MainTextureIntensity: 1.206
+    - _NoiseAmount: 1
+    - _NoiseScaleX: 2.88
+    - _NoiseScaleY: 5
+    - _NoiseSpeed: 0.5
+    - _Radius: 0.14
+    - _Radius1: 0.5
+    - _Radius2: 0.11
+    - _Radius2Max: 0.364
+    - _Radius2Min: 0.7
+    - _ScrollDirX: 1
+    - _ScrollDirY: 0.42
+    - _Speed: 0.5
+    - _TrailDuration: 10
+    - _TrailFadeSpeed: 5.17
+    - _TrailOpacity: 0.5
+    - _TrailScale: 1
+    - _Turbulence: 10
+    - _depth: 0.1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0.5}
+  m_BuildTextureStacks: []

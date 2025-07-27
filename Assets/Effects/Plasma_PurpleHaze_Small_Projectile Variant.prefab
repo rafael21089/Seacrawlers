@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &361451838097411714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1257873104036598, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_Name
+      value: Plasma_PurpleHaze_Small_Projectile Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257873104036598, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_TagString
+      value: MagicBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010437552377404, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54344322164163910, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54344322164163910, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+--- !u!1 &360387542475648116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1257873104036598, guid: a1d5609ff2cc6754ab75f8c4dd567bca, type: 3}
+  m_PrefabInstance: {fileID: 361451838097411714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &8131123674563583008
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360387542475648116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.24
+  m_Center: {x: 0, y: 0, z: 0.31}
+--- !u!114 &7237700434891367808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360387542475648116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60741dbf6b465be41b8856f81e264717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  target: {fileID: 0}
+  effect: {fileID: 1879272669879180, guid: de6445e31c93e884bba171424c66d401, type: 3}
